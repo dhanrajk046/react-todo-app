@@ -14,19 +14,13 @@ The application provides a clean user interface with persistent storage using th
 
 ## 📸 Screenshots
 
-<img width="1366" height="768" alt="image A" src="https://github.com/user-attachments/assets/d7813bb9-d7aa-4515-8acd-56293ee09389" />
-
-<img width="1366" height="768" alt="image B" src="https://github.com/user-attachments/assets/5c28eb2f-ab6a-4c7e-aefa-403d54d2726b" />
-
-
-
 ### Home Page
 
-![Home](screenshots/home.png)
+<img width="1366" height="768" alt="image A" src="https://github.com/user-attachments/assets/d7813bb9-d7aa-4515-8acd-56293ee09389" />
 
 ### Adding a Task
 
-![Add Task](screenshots/add-task.png)
+<img width="1366" height="768" alt="image B" src="https://github.com/user-attachments/assets/5c28eb2f-ab6a-4c7e-aefa-403d54d2726b" />
 
 ---
 
