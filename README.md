@@ -1,70 +1,248 @@
-React Todo App
+# 📝 React Todo App
 
-A simple and efficient Todo List application built using React.
-This app allows users to manage daily tasks with a clean, responsive, and user-friendly interface.
+A modern, responsive **Todo List** web application built with **React.js** that helps users organize and manage their daily tasks efficiently.
 
-🚀 Live Demo
+The application provides a clean user interface with persistent storage using the browser's **Local Storage**, ensuring tasks remain available even after refreshing or reopening the browser.
 
-👉 https://react-todo-mifiwocsj-dhanrajk046s-projects.vercel.app
+---
 
-🧠 Features
-✅ Add new tasks
-🗑️ Delete tasks
-💾 Data saved using Local Storage
-🔄 Tasks persist after refresh
-⚡ Fast and responsive UI
+## 🚀 Live Demo
 
-🛠️ Tech Stack
-Frontend: React.js
-Styling: CSS / Bootstrap
-State Management: React Hooks (useState, useEffect)
-Deployment: Vercel
+🔗 **Website:** https://react-todo-mifiwocsj-dhanrajk046s-projects.vercel.app
 
-📂 Project Structure
+---
+
+## 📸 Screenshots
+
+> Add screenshots inside a `screenshots` folder and replace the filenames below.
+
+### Home Page
+
+![Home](screenshots/home.png)
+
+### Adding a Task
+
+![Add Task](screenshots/add-task.png)
+
+---
+
+# ✨ Features
+
+- ✅ Add new tasks
+- 🗑️ Delete existing tasks
+- 💾 Automatically saves tasks using Local Storage
+- 🔄 Tasks remain after browser refresh
+- ⚡ Fast and responsive user interface
+- 📱 Mobile-friendly design
+- 🎯 Simple and clean user experience
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| React.js | Frontend Framework |
+| JavaScript (ES6+) | Application Logic |
+| HTML5 | Structure |
+| CSS3 | Styling |
+| Bootstrap | Responsive UI Components |
+| React Hooks | State Management |
+| Local Storage | Data Persistence |
+| Vercel | Deployment |
+
+---
+
+# 📂 Project Structure
+
+```text
 react-todo-app/
 │
 ├── public/
+│
 ├── src/
+│   │
 │   ├── MyComponents/
 │   │   ├── Header.js
 │   │   ├── Todos.js
+│   │   ├── TodoItem.js
 │   │   ├── AddTodo.js
 │   │   └── Footer.js
 │   │
 │   ├── App.js
 │   ├── App.css
-│   └── index.js
+│   ├── index.js
+│   └── index.css
 │
 ├── package.json
+├── package-lock.json
 └── README.md
+```
 
-⚙️ Installation & Setup
-# Clone the repository
+---
+
+# ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/dhanrajk046/react-todo-app.git
+```
 
-# Go to project folder
+### 2. Navigate to the project directory
+
+```bash
 cd react-todo-app
+```
 
-# Install dependencies
+### 3. Install dependencies
+
+```bash
 npm install
+```
 
-# Run the app
+### 4. Start the development server
+
+```bash
 npm start
+```
 
-Future Improvements
-✨ Edit task functionality
-🔐 User authentication
-☁️ Backend integration (Node.js / Firebase)
-📱 Better mobile UI
-🙋‍♂️ About Me
+The application will open at:
 
-Hi, I'm Dhanraj, a developer focused on building real-world projects in React, Python, and AI.
-I aim to become an entrepreneur and create impactful tech solutions.
+```
+http://localhost:3000
+```
 
-⭐ Support
+---
 
-If you like this project:
+# 🧠 Concepts Practiced
 
-⭐ Star this repo
-🍴 Fork it
-🧠 Give feedback
+This project helped me learn and practice:
+
+- React Components
+- JSX
+- Props
+- State Management
+- React Hooks
+  - useState
+  - useEffect
+- Component Communication
+- Conditional Rendering
+- Local Storage API
+- Responsive Design
+- Project Structure
+- Deploying React Apps on Vercel
+
+---
+
+# 🎯 Use Cases
+
+This application can be used for:
+
+- Daily task management
+- Personal reminders
+- Study planning
+- Work planning
+- Shopping lists
+- Productivity tracking
+
+---
+
+# 🚀 Future Improvements
+
+- ✏️ Edit existing tasks
+- ✔️ Mark tasks as completed
+- 📅 Due date support
+- 🔍 Search tasks
+- 🏷️ Task categories
+- 🌙 Dark Mode
+- 👤 User Authentication
+- ☁️ Backend Integration (Node.js + Express + MongoDB)
+- 🔄 Cloud synchronization
+- 📊 Task statistics dashboard
+
+---
+
+# 📦 Deployment
+
+The application is deployed on **Vercel**.
+
+Live Website:
+
+👉 https://react-todo-mifiwocsj-dhanrajk046s-projects.vercel.app
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push to GitHub
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request
+
+---
+
+# 👨‍💻 Author
+
+## Dhanraj Kumar
+
+Software Engineer | Full Stack Developer
+
+**Skills**
+
+- React.js
+- JavaScript
+- Python
+- Django
+- Flask
+- FastAPI
+- HTML
+- CSS
+- Bootstrap
+- Git & GitHub
+
+GitHub:
+
+https://github.com/dhanrajk046
+
+---
+
+# 📄 License
+
+This project is licensed under the **Apache 2.0 License**.
+
+---
+
+# ⭐ Support
+
+If you found this project helpful, please consider:
+
+⭐ Star this repository
+
+🍴 Fork the repository
+
+🛠️ Contribute to the project
+
+💬 Share your feedback
+
+---
+
+## Thank You for Visiting! ❤️
